@@ -1,7 +1,7 @@
 # Revenge of the Pancakes coding exercise
 
-I did this coding exercise for an interview, here is the results.
-The challenge is in the pdf.
+I did this coding exercise for an interview, my solution is in `pancakes.go`.
+The description is below, and `stacks.txt` is a test file.
 
 ## Revenge of the Pancakes
 This problem came from a Google Code Jam project that was made available online in 2016. Feel free to use the language you feel most comfortable in, but Go is our preferred language if you are able to use it.
@@ -18,24 +18,26 @@ For each test case, output one line containing Case #x: y, where x is the test c
 
 ## Limits
 1 ≤ T ≤ 100.
-Every character in S is either + or ­. 
+Every character in S is either + or ­.
 
 Small dataset
-1 ≤ length of S ≤ 10. 
+1 ≤ length of S ≤ 10.
 
 Large dataset
-1 ≤ length of S ≤ 100. 
+1 ≤ length of S ≤ 100.
 
 ## Sample
+Input
 ```
-  Input
 5
-­
-­+
-+­
+-
+-+
++-
 +++
-­­+­
-  Output
+­--­+­-
+```
+Output
+```
 Case #1: 1
 Case #2: 1
 Case #3: 2
